@@ -1,8 +1,16 @@
+// 导入了vue
 import Vue from 'vue'
+// 导入了组件 App。vue（根组件）
 import App from './App.vue'
+// 导入了路由
 import router from './router'
+// 导入了 vuex
 import store from './store'
-
+// 导入 Elemnent-ui
+import Element from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+Vue.use(Element)
+// 设置当前项目的模式： 当前模式为开发 模式
 Vue.config.productionTip = false
 
 new Vue({
